@@ -1,0 +1,197 @@
+@font-face {
+    font-family: Apercu Regular;
+    src: url(fonts/aperc-regular.otf);
+}
+
+@font-face {
+    font-family: Apercu Medium;
+    src: url(fonts/apercu-medium.otf);
+}
+
+@font-face {
+    font-family: Butler Regular;
+    src: url(fonts/Butler_Regular.otf);
+}
+
+@font-face {
+    font-family: Butler Medium;
+    src: url(fonts/Butler_Medium.otf);
+}
+
+@font-face {
+    font-family: Futurak;
+    src: url(fonts/FutstencilSerif.ttf);
+}
+
+body , h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: Butler Medium;
+    font-weight: 500;
+    font-size: 48px;
+}
+
+h3 {
+    font-family: Apercu Regular;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+h4 {
+    font-family: Apercu Regular;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+b {
+    font-family: Futurak;
+}
+
+p {
+    font-family: Apercu Regular;
+    
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.header-con {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    width: 17%;
+}
+
+nav {
+    width: 83%;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    padding-left: 25px;
+}
+
+nav a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Poppins";
+}
+
+.btn1 , .btn2 {
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.btn2 {
+    background-color: red;
+    border: 2px solid red;
+    padding: 10px 15px;
+}
+
+.welcome {
+    text-align: center;
+    padding: 80px 0 100px;
+}
+
+.welcome h2 {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.main1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.img-box {
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+button {
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 500;
+    background-color: transparent;
+    color: #fff;
+    padding: 15px 50px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.franchise {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #0a0a0a;
+}
+
+.inner-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 40px;
+}
+
+.fr-left-col {
+    width: 50%;
+    text-align: left;
+}
+
+.fr-left-col h5 , .fr2 h5 {
+    font-family: Apercu Regular;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 7px;
+    color: red;
+}
+
+.fr-left-col button , .fr2 button {
+    margin-top: 30px;
+    padding: 15px 60px 15px 30px;
+}
+
+.fr-left-col button::after , .fr2 button::after{
+    content: url(images/arrow.jpg);
+    position: absolute;
+    transform: translate(10px, 4px);
+}
+
+.fr-rt-col {
+    width: 50%;
+}
+
+.fr2 .img-box {
+    padding: 0 !important;
+    background-color: transparent !important;
+}
+
+.fr2-col h4 {
+    font-size: 24px;
+}
